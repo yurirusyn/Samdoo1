@@ -1,0 +1,48 @@
+.container-whitePaper {
+    width: 1396px;
+    height: 812px;
+}
+
+.whitePaper-text {
+    font-family: 'AdonisCRegular';
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+}
+.whitePaper-title {
+    font-family: 'CambriaMath';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    
+    text-align: justify;
+    
+    color: #FFFFFF;
+    border-top: 225px;
+    margin-bottom: 24px;
+}
+.whitePaper-button {
+    width: 405px;
+    height: 75px;
+
+    background: #092E36;;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: block;
+    &:focus {
+        background: #858585;
+    }
+}
+
+.whitePaper-text-button {
+    font-family: 'AdonisCRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}

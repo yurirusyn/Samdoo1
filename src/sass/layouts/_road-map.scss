@@ -1,0 +1,84 @@
+.road__map {
+  width: 1400px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 350px;
+}
+.flex {
+  display: flex;
+}
+.buttons__container {
+  margin-right: 240px;
+}
+
+.road__map--title {
+  font-family: 'CambriaMath';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+
+  text-align: justify;
+
+  margin-bottom: 50px;
+
+  color: #ffffff;
+}
+
+// .Button__list {
+// }
+
+.Button__list--item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.Button {
+  width: 263px;
+  height: 65px;
+
+  background: #1e6c63;
+  border-radius: 10px;
+
+  &:focus {
+    background: #858585;
+  }
+}
+
+.Button--text {
+  font-family: 'AdonisCRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.text-container {
+  position: relative;
+
+  width: 992px;
+
+  margin-top: 230px;
+}
+
+.text__container--text {
+  position: absolute;
+
+  opacity: 0;
+
+  font-family: 'AdonisCRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.visible-js {
+  opacity: 1;
+}

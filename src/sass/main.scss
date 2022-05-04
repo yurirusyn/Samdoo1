@@ -1,0 +1,31 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+@font-face {
+  font-family: AdonisCRegular;
+  src: url(../fonts/AdonisCRegular.otf);
+}
+
+@font-face {
+  font-family: CambriaMath;
+  src: url(../fonts/CambriaMath.ttc);
+}
+// Стили для файла с примером HTML-фрагмента
+@import './base/commons';
+@import './base/reset';
+@import './components/btns';
+@import './components/container';
+@import './components/sections';
+@import './layouts/header';
+@import './layouts/home';
+@import './layouts/white-paper';
+@import './layouts/road-map';
+@import './layouts/partner';
+@import './layouts/team';
+@import './layouts/faqs';
+@import './layouts/contact';
+@import './layouts/footer';
+@import './layouts/slider';
+@import './components/to-the-top';

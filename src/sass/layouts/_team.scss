@@ -1,0 +1,66 @@
+.team {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team__title {
+  font-family: 'CambriaMath';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+
+  text-align: justify;
+
+  margin-bottom: 90px;
+
+  color: #ffffff;
+}
+
+.team__container {
+  display: flex;
+}
+
+.team__list--item {
+  &:not(:last-child) {
+    margin-right: 80px;
+  }
+}
+
+.team__list--name {
+  width: 14px;
+  height: 31px;
+
+  margin-left: 190px;
+
+  font-family: 'AdonisCRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #ffffff;
+
+  transform: rotate(31.66deg);
+}
+
+.team__list--photocard {
+  width: 263px;
+  height: 263px;
+
+  margin-bottom: 80px;
+}
+
+.teem__list--text {
+  width: 301px;
+
+  font-family: 'AdonisCRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: justify;
+
+  color: #ffffff;
+}

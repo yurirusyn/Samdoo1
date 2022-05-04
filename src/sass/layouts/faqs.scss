@@ -1,0 +1,122 @@
+.faqs {
+    width: 1920px;
+    height: 1087px;
+margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(180deg, #010414 -1.38%, rgba(1, 4, 20, 0) 37.11%),
+        url(../images/faqs/back-fags-1x.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: linear-gradient(180deg, #010414 -1.38%, rgba(1, 4, 20, 0) 37.11%),
+            url(../images/faqs/back-fags-2x.jpg);
+    }
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faqs__container {
+width: 1400px;
+margin: 0 auto;
+
+}
+
+
+.Button__item-faqs:not(:last-child) {
+    // margin-right: 101px;
+    margin-right:52px;
+}
+
+.Button-faqs{
+width: 450px;
+height: 75.92px;
+
+background: #2F7676;
+border-radius: 10px;
+
+    &:focus {
+        background: #858585;
+    }
+}
+
+.Button__list-faqs {
+    display: flex;
+        margin: 0 auto;
+        padding-top: 160px;
+        // margin-top: 300px;
+        // display: block;
+}
+.Button--text-faqs {
+    font-family: 'AdonisCRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: justify;
+
+    color: #ffffff;
+}
+.text-container {
+    position: relative;
+}
+.text__container--text {
+    // position: absolute;
+
+   
+
+    font-family: 'AdonisCRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #ffffff;
+}
+
+
+// .text__container--text-faqs {
+//     margin-top: 118px;
+//     // width: 405px; 
+//     font-family: 'AdonisCRegular';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 32px;
+//     line-height: 38px;
+//     color: #ffffff;
+// }
+
+.text-container-faqs-1 {
+    margin-top: 118px;
+    width: 450px;
+    height: 387px;
+    font-family: 'AdonisCRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ffffff;
+}
+.text-container-faqs-2 {
+    margin-top: 118px;
+    width: 450px;
+    height: 387px;
+    font-family: 'AdonisCRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ffffff;
+}
+.text-container-faqs-3 {
+    margin-top: 87px;
+    width: 460px;
+    height: 487px;
+    font-family: 'AdonisCRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ffffff;
+}
